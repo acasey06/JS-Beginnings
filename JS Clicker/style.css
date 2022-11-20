@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: .3%;
+    font-family: sans-serif;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+}
+#game{
+    display: flex;
+    width: 750px;
+    height: 350px;
+    border: 3px solid black;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+}
+#square{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    align-self: center;
+}
+#rebirth{
+    width: 47px;
+    height: 20px;
+    background-color: blue;
+    align-self: center;
+}
